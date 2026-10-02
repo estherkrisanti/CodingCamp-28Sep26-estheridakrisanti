@@ -1,0 +1,417 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Create project scaffold and HTML structure": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872523284
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872546561
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872865389
+      }
+    ],
+    "2.1 Define CSS custom properties on `:root` (colors, spacing, radius, min-touch, font-base) and apply a `box-sizing: border-box` reset": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872523714
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872872530
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873062683
+      }
+    ],
+    "2.2 Write mobile-first base layout: `body` as a flex column, section `order` values, canvas and image `max-width: 100%`, `.transaction-title` truncation": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872524225
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873077689
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873578775
+      }
+    ],
+    "2.3 Write the `@media (min-width: 600px)` desktop grid layout with two columns and full-width spans for `#summary` and `#limit-section`": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872524387
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873084835
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873586490
+      }
+    ],
+    "2.4 Add styles for `.income` / `.expense` list items (color, sign), `.over-limit` warning highlight, `#toast` with opacity transition, and button/input minimum touch targets": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872524556
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873091982
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873594674
+      }
+    ],
+    "3.1 Define `AppState` object, `generateId()` helper (using `crypto.randomUUID` with Math.random fallback), and predefined categories array": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872524729
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872879514
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873069735
+      }
+    ],
+    "3.2 Implement `StorageService` module: `checkAvailability()`, `read(key, fallback)`, `write(key, value)`, and `init()` — all with `try/catch`; call `showToast()` on write failure": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872524927
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873100305
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873603029
+      }
+    ],
+    "3.3 Implement `loadAppState()` that calls `StorageService.init()` and populates `AppState.transactions`, `AppState.categories`, and `AppState.limits` from storage (or defaults)": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872525099
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873611987
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873773558
+      }
+    ],
+    "4.1 Implement `isValidTitle(s)` (non-empty after trim, max 100 chars) and `isValidAmount(v)` (numeric, > 0, ≤ 999,999,999.99) and `isValidCategoryName(name, categories)` (non-blank, ≤ 50 chars, case-insensitive uniqueness check)": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872525268
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873619828
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873782121
+      }
+    ],
+    "4.5 Implement `SpendingService.getMonthlyStatus()`: filters expense transactions to the current calendar month, aggregates totals per category, merges with limits, and returns a `Map<categoryName, { total, limit, isOver }>`": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872525418
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873798844
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873919654
+      }
+    ],
+    "5.1 Implement `computeBalance(transactions)` (sum income minus sum expense) and `formatBalance(value)` (currency symbol + two decimal places with `toLocaleString` or `toFixed`)": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872525562
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873627703
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873790453
+      }
+    ],
+    "5.4 Implement `SortService.sortTransactions(txs, order)` supporting `amount-desc`, `amount-asc`, `category-asc`, `category-desc`, each with date-descending as a tiebreaker": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872525714
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873807773
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790874056205
+      }
+    ],
+    "6. Checkpoint — Verify pure logic functions": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872525875
+      },
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790874088937
+      }
+    ],
+    "7.1 Implement `addTransaction(tx)`: unshift to `AppState.transactions`, call `saveTransactions()`, then call `renderBalance()`, `renderTransactionList()`, `renderChart()`": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872526122
+      }
+    ],
+    "7.2 Implement `deleteTransaction(id)`: filter out the target, call `saveTransactions()`, then call `renderBalance()`, `renderTransactionList()`, `renderChart()`": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872526274
+      }
+    ],
+    "7.4 Implement `addCategory(name)`: push to `AppState.categories`, call `saveCategories()`, then call `renderCategories()` and `refreshCategorySelect()`": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872526481
+      }
+    ],
+    "7.5 Implement `setLimit(category, limit)` and `removeLimit(category)`: update `AppState.limits`, call `saveLimits()`, then call `renderTransactionList()`, `renderChart()`, `renderLimits()`": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872526633
+      }
+    ],
+    "8.1 Implement `renderBalance()`: read `#balance-amount`, set `textContent` to `formatBalance(computeBalance(AppState.transactions))`": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872526785
+      }
+    ],
+    "8.2 Implement `renderTransactionList()`: call `SortService.sortTransactions`, build `<li>` elements with `data-id`, `data-category`, income/expense CSS class, title/amount/date/category text, delete button, and `over-limit` class from `getMonthlyStatus()`; render empty-state `<li>` when list is empty": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872526933
+      }
+    ],
+    "8.3 Implement `renderCategories()`: render `#category-list` with all category names; mark predefined ones as non-deletable; update `#limit-category-select` in `#limit-section`": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872527085
+      }
+    ],
+    "8.4 Implement `refreshCategorySelect()`: repopulate the `<select>` inside `#form-section` with the current `AppState.categories` list": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872527281
+      }
+    ],
+    "8.5 Implement `renderLimits()`: populate `#limits-table` with each category, its current limit (or \"—\"), and a clear button; re-render `#limit-category-select`": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872527503
+      }
+    ],
+    "9.1 Implement `aggregateExpenses(transactions)`: filter to expense type, sum per category, sort descending; if more than 10 categories, keep top 10 and fold the rest into a single \"Other\" entry": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872527657
+      }
+    ],
+    "9.3 Implement `renderChart()`: show/hide canvas and `#chart-empty` placeholder; draw doughnut arcs using Canvas 2D (startAngle tracks cumulative angle, doughnut hole via reverse arc); apply `#e74c3c` stroke to over-limit category arcs; call `renderLegend()`": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872527931
+      }
+    ],
+    "9.4 Implement `renderLegend()`: append colored swatches, category names, and formatted total amounts to `#chart-legend`; append ⚠ icon to over-limit legend entries": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872528094
+      }
+    ],
+    "10.1 Implement `handleAddTransaction(e)`: prevent default, run validators for all five fields (title, amount, date, category, type), show inline `<span class=\"field-error\">` messages on failure, build `Transaction` object with `generateId()`, call `addTransaction()`, clear form, return focus to title input": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872528237
+      }
+    ],
+    "10.2 Implement `handleDeleteTransaction(id)`: call `deleteTransaction(id)` (with optional confirm dialog)": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872528402
+      }
+    ],
+    "10.3 Implement `handleSortChange(value)`: set `AppState.sortOrder`, call `renderTransactionList()`; ensure controls default to `amount-desc` and the selection is preserved during the session": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872528604
+      }
+    ],
+    "10.4 Implement `handleAddCategory()`: validate with `isValidCategoryName`, show inline error on failure, call `addCategory(name)`, clear input": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872528767
+      }
+    ],
+    "10.5 Implement `handleSetLimit()` and `handleClearLimit()`: validate limit value (`isValidAmount`), show inline error on failure, call `setLimit()` or `removeLimit()`, clear input": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872528915
+      }
+    ],
+    "10.6 Implement `showToast(message, durationMs)`: set `#toast` `textContent`, add `visible` CSS class, remove it after `durationMs` milliseconds": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872529067
+      }
+    ],
+    "10.7 Implement `init()`: register all event listeners with delegation on stable container elements, call `loadAppState()`, then call all render functions to paint the initial UI": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872529214
+      }
+    ],
+    "11. Checkpoint — Verify full UI integration": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872529358
+      }
+    ],
+    "12.1 Style all form elements, `#summary` header, section cards, and `#limits-table` for clear visual hierarchy; apply font, color, and spacing tokens from CSS custom properties": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872529517
+      }
+    ],
+    "12.2 Add `aria-live=\"polite\"` on `#toast` (already in HTML), ensure all form `<input>` and `<select>` elements have associated `<label>` elements, and add `role=\"status\"` where needed for screen reader announcements": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872529698
+      }
+    ],
+    "12.3 Verify `min-height: 44px; min-width: 44px` applies to all `button`, `input`, and `select` elements and that no content overflows at 320 px viewport width": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872529836
+      }
+    ],
+    "13. Final checkpoint — Full verification": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790872529989
+      }
+    ],
+    "2. Implement CSS foundation — variables, reset, and mobile-first layout": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873594879
+      }
+    ],
+    "3. Implement core data layer inside the IIFE": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873773709
+      }
+    ],
+    "4. Implement `Validators` and `SpendingService` pure functions": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790873919847
+      }
+    ],
+    "5. Implement `SortService` and balance calculation": [
+      {
+        "executionId": "928ad539-006a-453e-8812-bdfc8799ccd4",
+        "chatSessionId": "sess_7d264c58-5fc3-400f-9101-6173d65a8e29",
+        "timestamp": 1790874056357
+      }
+    ]
+  }
+}
